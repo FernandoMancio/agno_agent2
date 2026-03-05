@@ -34,7 +34,7 @@ def get_response_stream(message: str):
 
 # 3 - Streamlit ==========================================================
 
-st.set_page_config(page_title="Agent Chat PDF")
+st.set_page_config(page_title="Agent Chat PDF", page_icon=":male_detective:")
 st.title(":male_detective: Agent PDF do Mâncio")
 
 # 3.1 - Histórico ==========================================================
