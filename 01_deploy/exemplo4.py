@@ -1,3 +1,7 @@
+'''Comando para rodar:
+cd "Modulo 3"
+streamlit run 01_deploy/exemplo4.py'''
+
 # 1 - IMPORTS ===========================================================
 import requests
 import json
@@ -5,7 +9,8 @@ import streamlit as st
 
 AGENT_ID = "agente_pdf"
 #ENDPOINT = f"https://modulo3-api.onrender.com/agents/{AGENT_ID}/runs"
-ENDPOINT = f"https://agno-agent2.onrender.com/agents/{AGENT_ID}/runs"
+#ENDPOINT = f"https://agno-agent2.onrender.com/agents/{AGENT_ID}/runs"
+ENDPOINT = f"http://localhost:7777/agents/{AGENT_ID}/runs"
 
 # 2 - Conexão com o Agno (SERVER) =========================================
 
