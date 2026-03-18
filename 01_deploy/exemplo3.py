@@ -4,8 +4,8 @@ import json
 from pprint import pprint
 
 AGENT_ID = "agente_pdf"
-ENDPOINT = f"http://localhost:7777/agents/agente_pdf/runs"
-#ENDPOINT = f"http://localhost:10000/agents/{AGENT_ID}/runs"
+#ENDPOINT = f"http://localhost:7777/agents/agente_pdf/runs"
+ENDPOINT = f"http://localhost:10000/agents/{AGENT_ID}/runs"
 
 # 2 - Conexão com o Agno (SERVER) =========================================
 def get_response_stream(message: str):
