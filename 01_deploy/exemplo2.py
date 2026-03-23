@@ -49,6 +49,6 @@ if __name__ == "__main__":
         skip_if_exists=True,
         reader=PDFReader()
     )
-    agent_os.serve(app="exemplo2:app", host="0.0.0.0", port=8501, reload=True) #deploy render
-    #agent_os.serve(app="exemplo2:app", host="0.0.0.0", port=10000, reload=True) #deploy render
+    #agent_os.serve(app="exemplo2:app", host="0.0.0.0", port=8501, reload=True) #deploy render
+    agent_os.serve(app="exemplo2:app", host="0.0.0.0", port=10000, reload=True) #deploy render
     #agent_os.serve(app="exemplo2:app", host="0.0.0.0", port=7777, reload=True) #rodar local
